@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_facturacion_modelStoreContainer" CdmEntityContainer="db_facturacion_entities">
+    <EntitySetMapping Name="producto">
+      <EntityTypeMapping TypeName="db_facturacion_model.producto">
+        <MappingFragment StoreEntitySet="producto">
+          <ScalarProperty Name="prdc_precio_producto" ColumnName="prdc_precio_producto" />
+          <ScalarProperty Name="prvc_nombre_producto" ColumnName="prvc_nombre_producto" />
+          <ScalarProperty Name="cain_categoria_id" ColumnName="cain_categoria_id" />
+          <ScalarProperty Name="prin_producto_id" ColumnName="prin_producto_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SPWB_GetListProductos" FunctionName="db_facturacion_model.Store.SPWB_GetListProductos" />
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="db_facturacion_model.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="clbt_activo" ColumnName="clbt_activo" />
+          <ScalarProperty Name="clvc_user_modif" ColumnName="clvc_user_modif" />
+          <ScalarProperty Name="clvc_fecha_modif" ColumnName="clvc_fecha_modif" />
+          <ScalarProperty Name="clvc_user_registro" ColumnName="clvc_user_registro" />
+          <ScalarProperty Name="cldt_fecha_registro" ColumnName="cldt_fecha_registro" />
+          <ScalarProperty Name="cldt_fecha_nac" ColumnName="cldt_fecha_nac" />
+          <ScalarProperty Name="clvc_email" ColumnName="clvc_email" />
+          <ScalarProperty Name="clvc_direccion" ColumnName="clvc_direccion" />
+          <ScalarProperty Name="clvc_nit" ColumnName="clvc_nit" />
+          <ScalarProperty Name="clvc_apellido" ColumnName="clvc_apellido" />
+          <ScalarProperty Name="clvc_nombre" ColumnName="clvc_nombre" />
+          <ScalarProperty Name="clin_cliente_id" ColumnName="clin_cliente_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="empresa">
+      <EntityTypeMapping TypeName="db_facturacion_model.empresa">
+        <MappingFragment StoreEntitySet="empresa">
+          <ScalarProperty Name="embt_activo" ColumnName="embt_activo" />
+          <ScalarProperty Name="emvc_user_modif" ColumnName="emvc_user_modif" />
+          <ScalarProperty Name="emdt_fecha_modif" ColumnName="emdt_fecha_modif" />
+          <ScalarProperty Name="emvc_user_registro" ColumnName="emvc_user_registro" />
+          <ScalarProperty Name="emdt_fecha_registro" ColumnName="emdt_fecha_registro" />
+          <ScalarProperty Name="lxvc_ciudad" ColumnName="lxvc_ciudad" />
+          <ScalarProperty Name="emvc_cel_empresa" ColumnName="emvc_cel_empresa" />
+          <ScalarProperty Name="emvc_telefono_empresa" ColumnName="emvc_telefono_empresa" />
+          <ScalarProperty Name="emvc_direccion_empresa" ColumnName="emvc_direccion_empresa" />
+          <ScalarProperty Name="emvc_nit_empresa" ColumnName="emvc_nit_empresa" />
+          <ScalarProperty Name="emvc_sucursal_empresa" ColumnName="emvc_sucursal_empresa" />
+          <ScalarProperty Name="emvc_nombre_empresa" ColumnName="emvc_nombre_empresa" />
+          <ScalarProperty Name="embi_empresa_id" ColumnName="embi_empresa_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="formularios">
+      <EntityTypeMapping TypeName="db_facturacion_model.formularios">
+        <MappingFragment StoreEntitySet="formularios">
+          <ScalarProperty Name="fobt_is_hidden" ColumnName="fobt_is_hidden" />
+          <ScalarProperty Name="fovc_user_update" ColumnName="fovc_user_update" />
+          <ScalarProperty Name="fodt_fecha_update" ColumnName="fodt_fecha_update" />
+          <ScalarProperty Name="fovc_user_insert" ColumnName="fovc_user_insert" />
+          <ScalarProperty Name="fodt_fecha_insert" ColumnName="fodt_fecha_insert" />
+          <ScalarProperty Name="fobt_view" ColumnName="fobt_view" />
+          <ScalarProperty Name="fobt_delete" ColumnName="fobt_delete" />
+          <ScalarProperty Name="fobt_edit" ColumnName="fobt_edit" />
+          <ScalarProperty Name="fovc_url" ColumnName="fovc_url" />
+          <ScalarProperty Name="fovc_nombre_form" ColumnName="fovc_nombre_form" />
+          <ScalarProperty Name="roin_rol_id" ColumnName="roin_rol_id" />
+          <ScalarProperty Name="foin_formulario_id" ColumnName="foin_formulario_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="roles">
+      <EntityTypeMapping TypeName="db_facturacion_model.roles">
+        <MappingFragment StoreEntitySet="roles">
+          <ScalarProperty Name="robt_id_hidden" ColumnName="robt_id_hidden" />
+          <ScalarProperty Name="rovc_user_modif" ColumnName="rovc_user_modif" />
+          <ScalarProperty Name="rodt_fecha_modif" ColumnName="rodt_fecha_modif" />
+          <ScalarProperty Name="rovc_user_insert" ColumnName="rovc_user_insert" />
+          <ScalarProperty Name="rodt_fecha_insert" ColumnName="rodt_fecha_insert" />
+          <ScalarProperty Name="rovc_nombre_rol" ColumnName="rovc_nombre_rol" />
+          <ScalarProperty Name="roin_rol_id" ColumnName="roin_rol_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="db_facturacion_model.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="usbt_activo" ColumnName="usbt_activo" />
+          <ScalarProperty Name="usvc_user_modif" ColumnName="usvc_user_modif" />
+          <ScalarProperty Name="usdt_fecha_modif" ColumnName="usdt_fecha_modif" />
+          <ScalarProperty Name="usvc_user_registro" ColumnName="usvc_user_registro" />
+          <ScalarProperty Name="usdt_fecha_registro" ColumnName="usdt_fecha_registro" />
+          <ScalarProperty Name="usvc_contraseña_usuario" ColumnName="usvc_contraseña_usuario" />
+          <ScalarProperty Name="usvc_nombre_usuario" ColumnName="usvc_nombre_usuario" />
+          <ScalarProperty Name="usvc_usuario_id" ColumnName="usvc_usuario_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,16 @@
+D:\DEV\Administrador\Core\Facturacion.Core\DominioEntidades\bin\Debug\DominioEntidades.dll
+D:\DEV\Administrador\Core\Facturacion.Core\DominioEntidades\bin\Debug\DominioEntidades.pdb
+D:\DEV\Administrador\Core\Facturacion.Core\DominioEntidades\obj\Debug\DominioEntidades.csproj.CoreCompileInputs.cache
+D:\DEV\Administrador\Core\Facturacion.Core\DominioEntidades\obj\Debug\DominioEntidades.dll
+D:\DEV\Administrador\Core\Facturacion.Core\DominioEntidades\obj\Debug\DominioEntidades.pdb
+D:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\bin\Debug\DominioEntidades.dll
+D:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\bin\Debug\DominioEntidades.pdb
+D:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.csproj.CoreCompileInputs.cache
+D:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.dll
+D:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.pdb
+C:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\bin\Debug\DominioEntidades.dll
+C:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\bin\Debug\DominioEntidades.pdb
+C:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.csprojResolveAssemblyReference.cache
+C:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.csproj.CoreCompileInputs.cache
+C:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.dll
+C:\DEV\Administrador\Core\Fact.Admin.Core\DominioEntidades\obj\Debug\DominioEntidades.pdb
